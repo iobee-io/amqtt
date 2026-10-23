@@ -1,0 +1,10 @@
+{application,amqtt_client,
+             [{description,"MQTT 3.1.1 client for AtomVM"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[amqtt_client,amqtt_proto]},
+              {maintainers,["Davide Bettio <davide@uninstall.it>"]},
+              {licenses,["Apache-2.0"]},
+              {links,[{"AtomVM","https://atomvm.org"}]}]}.
